@@ -23,31 +23,19 @@ public class entreprise {
 //		
 //	}
 
-	/**
-	 * numéro de siret de l'entreprise
-	 */
+	/** numéro de siret de l'entreprise */
 	public int siret;
-	/**
-	 * nom de l'entreprise
-	 */
+	/** nom de l'entreprise */
 	public String nom;
-	/**
-	 * adresse de l'entreprise
-	 */
+	/** adresse de l'entreprise */
 	public String adresse;
-	/**
-	 * date de creation de l'entreprise
-	 */
+	/** date de creation de l'entreprise */
 	public Date dateCreation;
 
-	/**
-	 * Constante qui donne le capital maximum de l'entreprise
-	 */
+	/** Constante qui donne le capital maximum de l'entreprise */
 	public static final int CAPITAL_MAX = 3000000;
 
-	/**
-	 * Méthode abstraite qui affiche le statut de l'entreprise
-	 */
+	/** Méthode qui affiche le statut de l'entreprise */
 	public void afficherStatut() {
 	}
 
