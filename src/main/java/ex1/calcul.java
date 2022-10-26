@@ -1,12 +1,33 @@
 package ex1;
 
+/**
+ * @author Carolanne
+ * Calcul pour une addition et une soustraction
+ *
+ */
 public class calcul {
 
-	public int get1(int a, int b){
+	// mauvaise pratique
+//	public int get1(int a, int b){
+//		return a+b;
+//	}
+	
+	
+	/** Retourne l'addition d'un calcul
+	 * @param a entier
+	 * @param b entier
+	 * @return int
+	 */
+	public int addition(int a, int b){
 		return a+b;
 	}
 	
-	public int get2(int a, int b){
+	/** Retourne la soustraction d'un calcul
+	 * @param a entier
+	 * @param b entier
+	 * @return int
+	 */
+	public int soustraction(int a, int b){
 		return a-b;
 	}
 }
